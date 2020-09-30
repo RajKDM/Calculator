@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/calculatorsplash"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/tv_created"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created By"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="575dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KDM"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="38sp"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/tv_created"/>
+
+</RelativeLayout>
